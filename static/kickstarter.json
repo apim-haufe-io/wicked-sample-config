@@ -16,7 +16,8 @@
     "default",
     "k8s",
     "portal_local",
-    "docker"
+    "docker",
+    "box"
   ],
   "env": 2
 }
