@@ -20,6 +20,9 @@
   "PORTAL_KONG_ADMIN_URL": {
     "value": "http://${LOCAL_IP}:8001"
   },
+  "PORTAL_KONG_PROXY_URL": {
+    "value": "http://${LOCAL_IP}:8000"
+  },
   "PORTAL_MAILER_URL": {
     "value": "http://${LOCAL_IP}:3003"
   },

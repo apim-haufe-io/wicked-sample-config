@@ -33,6 +33,9 @@
   "PORTAL_KONG_ADMIN_URL": {
     "value": "http://kong:8001"
   },
+  "PORTAL_KONG_PROXY_URL": {
+    "value": "http://kong:8000"
+  },
   "PORTAL_MAILER_URL": {
     "value": "http://portal-mailer:3003"
   },
@@ -64,5 +67,8 @@
   },
   "PORTAL_NETWORK_SCHEMA": {
     "value": "https"
+  },
+  "DOCKER_HOST": {
+    "value": "not-defined"
   }
 }
