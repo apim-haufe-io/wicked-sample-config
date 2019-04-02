@@ -30,6 +30,22 @@
         "token_expiration": 3600,
         "enable_client_credentials": true
       }
+    },
+    {
+      "id": "no-auth",
+      "name": "No Auth API",
+      "desc": "This is an API which does not require an authentication",
+      "auth": "none",
+      "tags": [],
+      "plans": [],
+      "authMethods": [],
+      "settings": {
+        "token_expiration": 3600,
+        "scopes": {},
+        "mandatory_scope": false
+      },
+      "requiredGroup": "",
+      "registrationPool": ""
     }
   ],
   "_links": {
